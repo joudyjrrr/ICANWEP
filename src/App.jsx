@@ -6,6 +6,8 @@ import Header from "./Pages/Header";
 import Landing from "./Pages/Landing";
 import Services from "./Pages/Services";
 import Features from "./Pages/Features";
+import Contact from "./Pages/Contact";
+import FormContact from "./Pages/FormContact";
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
 
       <Services />
       <Features />
+      <Contact/>
+      <FormContact/>
     </>
   );
 }
